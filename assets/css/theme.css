@@ -27,6 +27,7 @@ nav,
 section,
 summary {
   display: block;
+   filter: blue(5px);
 }
 audio,
 canvas,
@@ -86,6 +87,9 @@ sub {
 }
 img {
   border: 0;
+}
+bg-img {
+  filter: blue(5px);
 }
 svg:not(:root) {
   overflow: hidden;
