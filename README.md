@@ -6,3 +6,4 @@
 
 - Ken Baldauf
 - Ben Cynamon
+- Felicia "Mo" Reich
