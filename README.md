@@ -8,3 +8,4 @@
 - Ben Cynamon
 - Felicia "Mo" Reich
 - Liz Dorwart
+- Jonah Baer
