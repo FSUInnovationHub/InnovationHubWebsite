@@ -7,3 +7,4 @@
 - Ken Baldauf
 - Ben Cynamon
 - Felicia "Mo" Reich
+- Liz Dorwart
