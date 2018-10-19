@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html ng-app="NeedsHub">
+	<head>
+		<title>Needs Hub</title>
+        <script src="lib/angular/1.5.7/angular.min.js"></script>
+		<script src="lib/angular/1.5.7/angular-animate.min.js"></script>
+    	<script src="lib/angular/1.5.7/angular-animate.min.js"></script>
+    	<script src="lib/angular/1.5.7/angular-route.min.js"></script>
+    	<script src="lib/angular/1.5.7/angular-aria.min.js"></script>
+    	<script src="lib/angular/1.5.7/angular-messages.min.js"></script>
+		
+        <script src="lib/angular/material/1.0.9/angular-material.min.js"></script>
+        <link rel="stylesheet" href="lib/angular/material/1.0.9/angular-material.min.css">
+		
+        <script src="lib/svg-assets-cache.js"></script>
+		<script src="lib/ui-bootstrap-tpls-0.10.0.js"></script>
+        <script src="lib/jquery-3.1.0.min.js"></script>
+    	
+        <script src="lib/needs-hub.js"></script>     
+    	<link rel="stylesheet" href="lib/needs-hub.css">
+	</head>
+	<body layout="column">
+        <md-toolbar class="fsu-background">
+            <div class="md-toolbar-tools" layout="row">
+                <h2 flex="80"><span><strong>Needs Hub</strong></span></h2>
+                <p flex="20" class="version"><span>Version 0.3.0 (alpha)</span></p>
+            </div>
+        </md-toolbar>
+        <md-content ng-controller="AppController" layout="column">
+            <md-tabs md-dynamic-height md-selected="selectedIndex" md-border-bottom md-autoselect>
+                <md-tab label="Purpose">
+                    <div class="md-padding">
+                        <div class="sheet" layout="column">
+                            <div class="sheet-content">
+                                <h2 class="md-title" style="text-align: center;">Needs Hub Purpose</h2>
+                                <div class="md-body-1"> 
+                                    <p><br>The innovation and entrepreneurship community at Florida State University would like to know about needs, problems, or issues that you face or have observed.  Our student entrepreneurs want to tackle them with or for you!</p> 
+                                    <p>The Needs Hub is a web application for reviewing, creating, maintaining, and collaborating on need statements.  Please add a need statement by completing the form in the <b>SUBMIT A NEED</b> tab. Feel free to submit multiple needs.  We won&#39;t contact you unless you indicate your willingness to be contacted.</p>
+                                    <p><br>Thank you!</p>
+                                    <p><br>Needs Hub Team</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </md-tab>
+                <md-tab label="Needs">
+                    <div class="md-padding" layout="row" layout-align="center center">
+                        <table class="needs-table">
+                            <tr class="md-title">
+                                <th>
+                                    <md-button ng-click="sortBy('title')">Need</md-button>
+                                    <md-tooltip md-direction="top">Click header to sort by need</md-tooltip>
+                                </th>
+                                <!--<th>
+                                    <md-button ng-click="sortBy('author.fullname')">Author</md-button>
+                                    <md-tooltip md-direction="top">Click header to sort by author</md-tooltip>
+                                </th>-->
+                                <th>
+                                    <md-button ng-click="sortBy('impact')">Impact</md-button>
+                                    <md-tooltip md-direction="top">Click header to sort by impact level</md-tooltip>
+                                </th>
+                                <th>
+                                    <md-button ng-click="sortBy('challenge')">Challenge</md-button>
+                                    <md-tooltip md-direction="top">Click header to sort by challenge level</md-tooltip>
+                                </th>
+                                <th>
+                                    <md-button ng-click="sortBy('submitted')">Submitted</md-button>
+                                    <md-tooltip md-direction="top">Click header to sort by date submitted</md-tooltip>
+                                </th>
+                            </tr>
+                            <tr class="md-body-1" ng-repeat="need in needs | orderBy:propertyName:reverse" ng-click="openNeedStatement(need.url)">
+                                <td layout="column">
+                                    <p><b>{{ need.title }}</b><br>
+                                    {{ need.author.fullname }}<br>
+                                    {{ need.author.position }}<br>
+                                    {{ need.author.organization }}</p>
+                                </td>
+                                <td style="text-align:center;">{{ need.impact }}</td>
+                                <td style="text-align:center;">{{ need.challenge }}</td>
+                                <td style="text-align:center;">{{ need.submitted }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </md-tab>
+                <md-tab label="Submit a Need">
+                    <iframe style="height:1500px;" src='https://docs.google.com/forms/d/e/1FAIpQLSdpBhSt_Gj2tg_R4ViW90PpsG3Q64o_Leo3M-m8SJFrSXCkyQ/viewform'></iframe>
+                </md-tab>
+                <md-tab label="Related Sites">
+                    <div class="md-padding">
+                        <div class="datalist" layout="column">
+                            <div class="sheet-content">
+                                <div layout="row">
+                                    <div layout="column" flex="60" layout-align="start start">
+                                        <div layout="row" layout-align="start center">
+                                            <h3 class="md-headline">openIDEO</h3>
+                                            <md-button class="md-icon-button md-accent" ng-href="https://openideo.com" target="_blank">
+                                                <md-icon md-svg-icon="res/open_in_new_48px.svg"></md-icon>
+                                                <md-tooltip>Click here to visit openideo.com</md-tooltip>
+                                            </md-button>
+                                        </div>
+                                        <p class="md-body-1">A global community working together to design solutions for the world&#39;s biggest challenges</p>
+                                    </div>
+                                    <div flex="40" layout-padding>
+                                        <iframe class="web-page-preview" src='https://openideo.com'></iframe>
+                                    </div>
+                                </div>
+                                <div layout="row">
+                                    <div layout="column" flex="60" layout-align="start start">
+                                        <div layout="row" layout-align="start center">
+                                            <h3 class="md-headline">HeroX</h3>
+                                            <md-button class="md-icon-button md-accent" ng-href="https://herox.com" target="_blank">
+                                                <md-icon md-svg-icon="res/open_in_new_48px.svg"></md-icon>
+                                                <md-tooltip>Click here to visit herox.com</md-tooltip>
+                                            </md-button>
+                                        </div>
+                                        <p class="md-body-1">HeroX was co-founded in 2013 by XPRIZE founder Peter Diamandis, challenge designer Emily Fowler and entrepreneur Christian Cotichini as a means to democratize the innovation model of XPRIZE.</p>
+                                        <p class="md-body-1">HeroX exists to enable anyone, anywhere in the world, to create a challenge that addresses any problem or opportunity, build a community around that challenge and activate the circumstances that can lead to a breakthrough innovation.</p>
+                                    </div>
+                                    <div flex="40" layout-padding>
+                                        <img class="web-page-preview" src='./res/herox-screenshot.png'></img>
+                                    </div>
+                                </div>
+                                <div layout="row">
+                                    <div layout="column" flex="60" layout-align="start start">
+                                        <div layout="row" layout-align="start center">
+                                            <h3 class="md-headline">Oxford Global Challenge</h3>
+                                            <md-button class="md-icon-button md-accent" ng-href="http://www.oxfordglobalchallenge.com/" target="_blank">
+                                                <md-icon md-svg-icon="res/open_in_new_48px.svg"></md-icon>
+                                                <md-tooltip>Click here to visit oxfordglobalchallenge.com</md-tooltip>
+                                            </md-button>
+                                        </div>
+                                            <p class="md-body-1">The Global Challenge is a chance for students and recent graduates to learn more about the issues they care about and present their findings to the world.</p>
+                                            <p class="md-body-1">Tackling global challenges starts with understanding a problem and its wider context, rather than jumping straight into a business plan or an idea for a quick fix. Participants are asked to demonstrate a deep understanding of a pressing social or environmental issue by mapping out the landscape of the current solutions and identifying missing opportunities for positive change.</p>
+                                        </div>
+                                    <div flex="40" layout-padding>
+                                        <iframe class="web-page-preview" src='http://www.oxfordglobalchallenge.com/'></iframe>
+                                    </div>
+                                </div>            
+                            </div>
+                        </div>
+                    </div>
+                </md-tab>
+                <md-tab ng-repeat="tab in tabs" label="{{tab.title}}">
+                    <iframe ng-src='{{tab.url}}' style="height:1000px; border:none;"></iframe>
+                </md-tab>
+            </md-tabs>
+        </md-content>
+        <div class="footer md-padding" layout="row" layout-align="end center">
+            <md-button class="md-icon-button md-accent" ng-href="mailto:cesar.rodriguez@med.fsu.edu?Subject=Needs%20Hub" target="_top">
+                <md-icon md-svg-icon="res/mail_36px.svg" style="color:white;"></md-icon>
+                <md-tooltip>Contact Us</md-tooltip>
+            </md-button>
+            <md-button class="md-icon-button md-accent" ng-href="https://github.com/cesarr/needs-hub" target="_blank" label="Source Code">
+                <md-icon md-svg-icon="res/github-icon.svg" style="color:white;"></md-icon>
+                <md-tooltip>Source Code on Github</md-tooltip>
+            </md-button>
+        </div>
+	</body>
+</html>
