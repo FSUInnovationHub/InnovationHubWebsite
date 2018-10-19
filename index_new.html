@@ -1,0 +1,1625 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>FSU Innovation Hub</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="nileforest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <!-- Favicone Icon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/ionicons.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugin/sidebar-menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+<style>
+	.header .logo a {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 340px;
+        transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+    }
+	.seafoam {
+		background-color: #c3d7d3;
+	}
+	.header.header-prepare, .header.header-light.header-prepare {
+    	background-color: rgba(255, 255, 255, 0.50);
+	}
+	.social {
+    	font-size: 20px;
+		list-style: none;
+	}
+	.social li {
+		float: left;
+		padding: 10px;
+	}
+	.clearfix{
+		  clear: both;
+	}	
+	.ptb {
+		padding-top: 75px;
+		padding-bottom: 0px;
+	}
+	blockquote.paralax {
+		border: 0;
+		border-top: none;
+		border-bottom: none;
+		font-size: 3em;
+		line-height: 1em;
+		font-weight: 200;
+		padding: 0;
+		margin: 0;
+		padding-bottom: 80px;
+	}
+	blockquote.paralax:before {
+		content: '\f347';
+		font-family: 'Ionicons';
+		margin-right: 0.5em;
+	}
+	blockquote.paralax:after {
+		content: '\f347';
+		font-family: 'Ionicons';
+		margin-left: 0.5em;
+	}
+	.bg-img19 {
+		background-image: url(images/frontdesk.jpg);
+	}
+	.bg-img20 {
+		background-image: url(images/einstein.jpg);
+	}
+	.bg-img21 {
+		background-image: url(images/splash4.jpg);
+	}
+	.bg-img22 {
+		background-image: url(images/splash6.jpg);
+	}
+	.bg-img23 {
+		background-image: url(images/active_learning.jpg);
+	}	
+	.bg-img24 {
+		background-image: url(images/tallahassee.jpg);
+	}	
+	.bg-img25 {
+		background-image: url(images/staff.jpg);
+	}	
+	.bg-img26 {
+		background-image: url(images/elon.jpg);
+	}	
+	.overlay-dark80:before {
+		background-color: rgba(32,32,32,0.5);
+	}
+	.fullscreen-carousel .flex-direction-nav a {
+		background-color: rgba(255,255,255,0.25);
+		border-radius: 25px;
+	}
+	.footer-logo{
+		    max-width: 240px;
+	}
+	p, li, td {
+		font-weight: 400;
+    	color: #666;
+		font-size: 14px;
+	}
+
+	.sidebar a, a:visited {
+
+    	color: #666;
+		text-decoration: underline;
+	}
+	.sidebar a:hover{
+
+    	color: #000;
+		text-decoration: none;
+	}
+	
+
+	
+
+	#fsuwidgetdatebox {
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+		border: 1px solid #888;
+		display: inline-table;
+		float: left;
+		clear: right;
+		background: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px;
+	}
+	.features-box-right {
+		padding-right: 0px;
+		text-align: right;
+	}
+	.features-box-left {
+		padding-left: 0px;
+		text-align: left;
+	}
+	.header.header-fixed {
+		height: 90px;
+	}
+</style>
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <section id="preloader">
+        <div class="loader" id="loader">
+            <div class="loader-img"></div>
+        </div>
+    </section>
+    <!-- End Preloader -->
+
+
+    <!-- Site Wraper -->
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="header">
+            <div class="container header-inner">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="http://www.fsu.edu">
+                        <img class="logo-light" src="images/fsu_seal_small_trans.png" alt="Florida State University" />
+                        <img class="logo-dark" src="images/fsu_seal_small_black.png" alt="Florida State University" />
+                    </a>
+                </div>
+
+                <!-- Mobile Navbar Icon -->
+                <div class="nav-mobile nav-bar-icon">
+                    <span></span>
+                </div>
+                <!-- End Mobile Navbar Icon -->
+
+                <!-- Navbar Navigation -->
+                <div class="nav-menu singlepage-nav">
+                    <ul class="nav-menu-inner">
+                        <li>
+							<a class="menu-has-sub" href="https://innovation.fsu.edu/">The Hub <i class="fa fa-angle-down"></i></a>
+                            <!-- Dropdown -->
+                            <ul class="sub-dropdown dropdown">
+                                <li><a class="menu" href="#about">About</a></li>
+								<li><a class="menu" href="#dt">Design</a></li>
+								<li><a class="menu" href="#3d">Build</a></li>
+								<li><a class="menu" href="#3d">Reimagine</a></li>
+								<li><a class="menu" href="#skills">Level Up</a></li>
+                                <li><a class="menu"  href="#partners">Partners</a></li>
+								<li><a class="menu" href="#team">Team</a></li>
+                       </ul>
+                        </li>
+                        <li>
+                            <a class="menu-has-sub">Facility Resources <i class="fa fa-angle-down"></i></a>
+                            <!-- Dropdown -->
+                            <ul class="sub-dropdown dropdown">
+                                <li><a class="menu" href="https://innovation.fsu.edu/reservations">Room Reservations</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/resources/fablab/">Fablab</a></li>
+								<li><a class="menu" href="https://innovation.fsu.edu/resources/vrlab/">VR Lab</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/resources/designlab/">Design Lab</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/resources/colab/">Collaborative Workspace</a></li>
+								<li><a class="menu" href="#">CCI Helpdesk</a></li>
+								<li><a class="menu" href="#">Argo Tea</a></li>
+                                <!--<li><a class="menu" href="https://innovation.fsu.edu/needs/">Needs Hub</a></li>-->
+                            </ul>
+                            <!-- End Dropdown -->
+                        </li>
+                         <li>
+                            <a class="menu-has-sub">Activities <i class="fa fa-angle-down"></i></a>
+                            
+                            <!-- Dropdown -->
+                            <ul class="sub-dropdown dropdown">
+                                <li><a class="menu" href="https://innovation.fsu.edu/calendar/">Calendar</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/activities">Workshops and Meetups</a></li>
+								<li><a class="menu" href="#">Collegiate Cryptocurreny Conference (C3)</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/digitech">DIGITECH</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/celebration/">Innovation Celebration</a></li>
+                                <li><a class="menu" href="http://accinventureprize.com/">ACC InVenture Prize</a></li>
+								<li><a class="menu" href="http://acceleratefestival.com/">ACCelerate Fest</a></li>
+                                <li><a class="menu" href="https://www.hackfsu.com/">HackFSU</a></li>
+                            </ul>
+                            <!-- End Dropdown -->
+                        </li>                       
+                         <li>
+                            <a class="menu-has-sub">Organizations <i class="fa fa-angle-down"></i></a>
+                            <!-- Dropdown -->
+                            <ul class="sub-dropdown dropdown">
+                                <li><a class="menu" href="#">Design for America @ FSU</a></li>
+								<li><a class="menu" href="#">IBM Skills Academy</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/orgs/igem/">International Genetically Engineered Machines (iGEM)</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/orgs/3d/">3D Printing Group</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/orgs/design/">VR Group</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/orgs/design/">Design Group</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/orgs/blockchain/">Blockchain Group</a></li>
+								<li><a class="menu" href="https://innovation.fsu.edu/orgs/igem/">TechNole</a></li>
+                            </ul>
+                            <!-- End Dropdown -->
+                        </li>  
+                        <!--<li>
+                            <a class="menu-has-sub">Learn <i class="fa fa-angle-down"></i></a>
+                            <ul class="sub-dropdown dropdown">
+                                <li><a class="menu" href="https://innovation.fsu.edu/activities">Workshops and Meetups</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/consulting">Personalized Consultation</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/design">Design Thinking</a></li>
+                                <li><a class="menu" href="https://innovation.fsu.edu/3d">3D Printing Overview</a></li>
+                            </ul>
+                        </li>-->           
+						<li>
+                            <a class="menu" href="https://innovation.fsu.edu/contact/index.html">Contact</a>               
+						</li>
+                    </ul>
+                </div>
+                <!-- End Navbar Navigation -->
+
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- CONTENT --------------------------------------------------------------------------------->
+
+        <!-- Intro Section -->
+        <section id="intro">
+            <!-- Hero Slider Section -->
+               <div class="flexslider fullscreen-carousel hero-slider-1 ">
+                <ul class="slides">
+
+                    <!--TITLE SLIDE-->
+                    <li data-slide="dark-slide">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="images/splash5.jpg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+                                        <h1 class="h1">Innovation Hub</h1>
+                                        <h2 class="lead">The Hub for Transdisciplinary Discovery, Design, and Innovation</h2>
+                                        <br />
+                                        <div><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white" href="#about">Learn More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+					<!--DESIGN THINKING SLIDE-->
+					<li data-slide="light-slide">
+                        <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="images/splash2.jpg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+										<h1 class="h1">Design Thinking @ The Hub</h1>
+                                        <h2 class="lead">Developing radical solutions to wicked problems.</h2>
+                                        <br />
+                                        <div><a class="btn btn-md btn-black-line" href="#dt">Learn More</a><span class="btn-space-10 xs-hidden"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+					<!--MAKING SLIDE-->
+					<li data-slide="dark-slide">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="images/splash4.jpg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+										<h1 class="h1">Build @ The Hub</h1>
+                                        <h2 class="lead">Design and prototype anything you can dream up.</h2>
+                                        <br />
+                                        <div><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white" href="#3d">Learn More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+					<!--VR SLIDE-->
+					<li data-slide="light-slide">
+                        <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="images/splash6.jpg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+										<h1 class="h1">Reimagine @ The Hub</h1>
+                                        <h2 class="lead">Create and explore virtual objects and environments.</h2>
+                                        <br />
+                                        <div><a class="btn btn-md btn-black-line" href="#3d">Learn More</a><span class="btn-space-10 xs-hidden"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+					<!--GAINING SKILLS SLIDE-->
+					<li data-slide="dark-slide">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="images/splash8.jpg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+										<h1 class="h1">Level Up @ The Hub</h1>
+                                        <h2 class="lead">Gain valuable technical skills through workshops and mentored experience.</h2>
+                                        <br />
+                                        <div><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white" href="#skills">Learn More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>                                   
+                </ul>
+            </div>
+            <!-- End Hero Slider Section -->
+        </section>
+        <div class="clearfix"></div>
+        <!-- End Intro Section -->
+
+        <!--About Section-->
+        <section id="about" class="wow fadeIn ptb ptb-sm-80 seafoam">
+            <div class="container">
+               
+                <div class="row mt-10 ptb-60">
+                    <!-- Welcome Content -->
+                    <div class="col-md-8 mb-30">
+                        <h3 class="pb-15">Welcome to THE HUB!</h3>
+                       
+                        <p>Florida State University's new Innovation Hub is the result of a $2.5 million investment by the Provost to deepen FSU's distinctive commitment to continuous innovation. Located at the heart of FSU's campus, the Innovation Hub fills the first floor of the Louis Shores building. </p>
+                        <!--<p>The 14,000 square foot space is designed to support Design Thinking with the latest technologies, a Digital Fablab, Virtual Reality Lab, Hackerspace, and a variety of spaces and technologies for collaborative work supporting groups from 2 to 140. The Innovation Hub is supported by <a href="#partners">twenty partner departments</a> within the University.</p>
+                       <p>Whether you're looking for help with your latest invention, looking to extend your knowledge of innovative technologies and techniques, looking for a quiet comfortable place to relax, or looking to meet up with friends or make new friends, the Hub is your place to have fun while discovering your inner innovator.</p>
+						-->
+						<p><span style="color:#000; font-weight: bold">Our Mission:</span> To foster a collaborative community founded on a culture of creativity and innovation that identifies issues, explores opportunities, and develops solutions using design thinking and emerging technologies.</p>
+						<p><span style="color:#000; font-weight: bold">Our Vision:</span> Students from all disciplines working together to combine their unique expertise and perspectives under the guidance of experienced mentors to create novel and effective solutions to the vexing, complex, and wicked problems of our day.</p>
+						<p><span style="color:#000; font-weight: bold">Our Values:</span> We strongly believe that the healthiest, happiest, and most productive organizations embrace four essential values:</p>
+						<ul class="mvv">
+							<li><span style="color:#000; font-weight: bold">Love:</span> Empathy / Compassion / Kindness / Fairness / Respect</li>
+							<li><span style="color:#000; font-weight: bold">Creativity:</span>  Curiosity / Inventiveness / Humor / Playfulness</li>
+							<li><span style="color:#000; font-weight: bold">Authenticity:</span> Genuineness / Honesty / Integrity / Openness / Transparency</li>
+							<li><span style="color:#000; font-weight: bold">Grit:</span> Tenacity / Commitment / Courage / Responsibility</li>
+						</ul>
+						
+						<p><span style="color:#000; font-weight: bold">Our Scope:</span>Our primary focus is on undergraduate students from all backgrounds and majors, while serving as a resource for the entire FSU community, with outreach to K-12 students, strong connections to the Tallahassee/Leon County innovation ecosystem, and partnerships with businesses and corporations.</p>
+                         <!-- Social -->
+                       <h3 class="ptb-15">Connect with us! <a target="_blank" href="https://twitter.com/FSUInnovates"><i class="fa fa-twitter"></i></a> <a target="_blank" href="https://www.instagram.com/fsuinnovates/"><i class="fa fa-instagram"></i></a> <a target="_blank" href="https://www.facebook.com/fsuinnovates/"><i class="fa fa-facebook"></i></a> </h3>
+                  
+                   
+
+                    </div>
+                    <!-- End Welcome Content -->
+					<!-- Welcoming Photos -->
+                    <div class="col-md-4 sidebar">
+ 						<!--<img class="img-fluid" src="images/frontdesk-welcome.jpg" alt="welcoming staff">-->
+						<h3 class="pb-15">Hours</h3>
+						<p>Mon-Thu 8AM-9PM<br>
+						Fri 8AM-6PM<br>
+						Sat Closed, Go Noles!<br>
+						Sun Noon-6PM</p>
+						<div>
+							<h3 class="calendar ptb-15">Upcoming<br>@ THE HUB</h3>
+							<script type="text/javascript"
+	src="https://calendar.fsu.edu/widget/view?campuses=main&types=93385&days=31&num=3&all_instances=1&hide_past=1&style=none&template=legacy-its"></script>
+							<p><a href="calendar/index.html">View more...</a></p>
+						</div>
+                    </div>
+                    <!-- End Photos -->
+
+
+                </div>
+            </div>
+        </section>        
+        <!-- End About Section-->
+        <hr />
+                
+        <!-- Statement Section -->
+        <section id="mission" class="bg-img25 overlay-dark80 dark-bg ptb ptb-sm-80">
+            <div class="container text-center">
+                <div class="row pb-80">
+                    <div class="col-md-10 offset-md-2">
+                        <i style="font-size: 12em" class="ion-ios-lightbulb-outline"></i>
+					<blockquote class="paralax">Transdisciplinary Discovery, Design, and Innovation to confront the vexing, complex and wicked challenges of our day.</blockquote>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Statement Section -->   
+		
+		
+		
+		
+        <!--DESIGN Section-->
+        <section id="dt" class="wow fadeIn ptb ptb-sm-80">
+            <div class="container">
+                
+                <div class="row mt-10 pb-60">   
+					<div class="spacer-60"></div>
+                    <!-- Welcome Content -->
+					<div class="col-md-2 mb-30">
+					</div>
+					
+                    <div class="col-md-8 mb-30">
+						
+						<h3>DESIGN THINKING @ THE HUB</h3>
+                        <div class="spacer-15"></div>
+                        <p>Design Thinking is the core innovation framework used @ The Hub. Design Thinking, sometimes referred to as Human Centered Design, is an innovation framework rooted in empathy, strongly dependant on the benefits of diverse perspectives, with specially designed methods and tools for investigation, ideation, prototyping, and testing.</p>
+						<p><img src="images/dt3.png"></p>
+						<p>The hallmarks of Design Thinking are:</p>
+						<ul>
+							<li>Focus on human values</li>
+							<li>Collaborate across boundaries</li>
+							<li>Seek diversity and equality</li>
+							<li>Mindfulness of process</li>
+							<li>Show don’t tell</li>
+							<li>Bias towards action (fail fast forward)</li>
+							<li>Iterate and prototype toward a solution</li>
+						</ul>
+						<p class="mt-25">We offer an introductory course in Design Thinking open to all students - ENT3607, Innovation by Design. In this class groups of students take on major challenges using Design Thinking methods to develop ideal solutions. We also offer workshops, meetups and design sprints to bring together designers from across disciplines.</p>
+						<div  class="text-center mt-25"><a class="btn btn-md btn-black-line" href="design/index.html">ENT3607 Innovation by Design</a></div>
+                         <!-- Social -->
+                      
+                    </div>
+					<div class="col-md-2 mb-30">
+					</div>
+                </div>
+            </div>
+        </section>        
+        <!-- End About Section-->
+        <hr />
+                
+        <!-- Statement Section -->
+        <section id="designquote" class="bg-img20 overlay-dark80 dark-bg ptb ptb-sm-80">
+            <div class="container text-center">
+                <div class="row pb-60">
+                    <div class="col-md-10 offset-md-2">
+                        <i style="font-size: 12em" class="ion-ios-lightbulb-outline"></i>
+					<blockquote class="paralax">We can't solve problems by using the same kind of thinking we used when we created them.</blockquote><h3>- Albert Einstein</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Statement Section --> 		
+
+
+		
+       <!-- Partners -->
+        <section id="3d" class="ptb ptb-sm-80">
+            <div class="container text-center">
+                <h2 class="mt-sm">3D @ THE HUB</h2>
+                <p class="lead">Design and prototype your 3D inventions in physical and virtual space.<br>Our Design Lab has high-powered graphics workstations for 3D design, and a materials library for low-fidelity prototyping.</p>
+                <div class="spacer-20"></div>
+                <div class="row">
+                    <div class="wow fadeInLeft col-md-6 pt-sm-0">
+                        <div class="features-box-right">   
+							<img class="img-fluid" src="images/3d.jpg" alt="girl using 3d printer">
+							<h3>The Digital Fablab</h3>
+							<div class="spacer-15"></div>
+							<p>Our Digital Fablab has equipment for bringing your inventions to life. Our 3D printer farm harnesses the power of 30 networked 3D printers supporting a wide variety of materials and dimensions. We also have 3D scanners, laser cutters,  Arduino boards, Raspberry Pi boards, Little bits, and a soldering station with a wide assortment of electronic components to create your next electronic creation.</p>
+							<!--<div class="text-right mt-25"><a class="btn btn-md btn-black-line" href="#dt">Digital Fablab Info</a><span class="btn-space-10 xs-hidden"></span></div>-->
+                        </div>
+
+                    </div>
+                   
+                    <div class="wow fadeInRight col-md-6 pt-sm-0">
+                        <div class="features-box-left">
+							<img class="img-fluid" src="images/vr2.jpg" alt="guy using vr">
+                          	<h3>The VR Lab</h3>
+							<div class="spacer-15"></div>
+							<p>Our VR lab provides limitless opportunities for students to reimagine the world in virtual and augmented reality. With three Oculus Rifts, three HTC Vives, Mixed Reality headsets and a Microsoft Hololense AR headset, students can explore the most popular VR and AR platforms. Workshops and meetups bring a wide community of VR enthusiasts together to share knowledge and ideas.</p>  
+							<!--<div class="text-left mt-25"><a class="btn btn-md btn-black-line" href="#dt">VR Lab Info</a><span class="btn-space-10 xs-hidden"></span></div>-->
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="spacer-60"></div>
+            </div>
+        </section>
+        <!-- End Features -->                
+ 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        <!-- Statement Section -->
+        <section id="vr_quote" class="bg-img22 overlay-dark80 dark-bg ptb ptb-sm-80">
+            <div class="container text-center">
+                <div class="row pb-60">
+                    <div class="col-md-10 offset-md-2">
+                        <i style="font-size: 12em" class="ion-ios-lightbulb-outline"></i>
+					<blockquote class="paralax">The best way to predict the future is to make it.</blockquote><h3>- Peter Drucker</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Statement Section -->
+		
+		
+        <!--SKILLS Section-->
+        <section id="skills" class="wow fadeIn ptb ptb-sm-80 seafoam">
+            <div class="container">
+
+                <div class="row mt-10 pb-60">
+					<div class="spacer-60"></div>
+                    <!-- Welcoming Photos -->
+                    <div class="col-md-6">
+ 						<img class="img-fluid" src="images/coding.jpg" alt="welcoming staff">
+                    </div>
+                    <!-- End Photos -->
+                    <!-- Welcome Content -->
+                    <div class="col-md-6 mb-30">
+                        <h3>LEVEL UP @ THE HUB!</h3>
+                        <div class="spacer-15"></div>
+                        <p>The Innovation Hub provides abundant opportunities for students to gain new skills and knowledge outside of class; skills and knowledge that employers are looking for! Gain an edge in the job market by attending workshops, trainings, competitions and hangouts around topics like </p>
+							<ul>
+								<li>Coding</li>
+								<li>Web Design</li>
+								<li>App Development</li>
+								<li>Digital Graphics Design</li>
+								<li>Drone Aircraft</li>
+								<li>Videography</li>
+								<li>3D Design</li>
+								<li>Game Design</li>
+								<li>Design Thinking</li>
+								<li>UX Design</li>
+								<li>3D Printing</li>
+								<li>VR Development</li>
+								<li>Blockchain</li>
+								<li>Data Science</li>
+								<li>Programming with Python</li>
+								<li>and more.</li>
+							</ul>
+						<!--<div><a class="btn btn-md btn-black-line" href="#dt">Learn More</a><span class="btn-space-10 xs-hidden"></span></div>-->
+                         <!-- Social -->
+
+                    </div>
+                    <!-- End Welcome Content -->
+
+
+                </div>
+            </div>
+        </section>        
+        <!-- End About Section-->
+        <hr />
+                
+        <!-- Statement Section -->
+        <section id="skills_quote" class="bg-img23 overlay-dark80 dark-bg ptb ptb-sm-80">
+            <div class="container text-center">
+                <div class="row  pb-60">
+                    <div class="col-md-10 offset-md-2">
+                        <i style="font-size: 12em" class="ion-ios-lightbulb-outline"></i>
+					<blockquote class="paralax">All <em>genuine</em> learning is active, not passive.</blockquote><h3>- Mortimer Adler</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Statement Section -->   
+		
+				
+        <!-- Partners -->
+        <section id="partners" class="ptb ptb-sm-80">
+            <div class="container text-center">
+                <h2 class="mt-sm">Innovation Hub Partners</h2>
+                <p class="lead">Innovation Hub partners support The Hub with critical resources and provide educational opportunities for our students. Partners serve on The Hub Steering Committee to help guide our direction. We couldn't exist without our partners.</p>
+                <div class="spacer-20"></div>
+                <div class="row">
+                    <div class="wow fadeInLeft col-md-4 pt-80 pt-sm-0">
+                        <div class="features-box-right">
+							<div class="spacer-60"></div>
+							<h1><i class="ion ion-star"></i></h1>
+                            
+                            <h3>Founding Partners</h3>
+                          <p>Our Founding Partners have made significant contributions towards the Hub's creation, maintenance, and operations.</p>
+                           <h5><a href="https://provost.fsu.edu/">Provost</a></h5>
+                           <h5><a href="https://ischool.cci.fsu.edu/?_ga=2.134535541.503947378.1534637225-1938582926.1515363206">School of Information</a></h5>
+                           <h5><a href="https://cci.fsu.edu/">College of Communication and Information</a></h5>
+                           <h5><a href="https://www.lib.fsu.edu/">Florida State University Libraries</a></h5>
+                           <h5><a href="http://jimmoranschool.fsu.edu/">Jim Moran School of Entrepreneurship</a></h5>
+                        </div>
+
+                    </div>
+                    <div class="wow fadeIn col-md-4 hidden-sm hidden-xs text-center">
+                         <h1><i class="ion ion-ios-lightbulb"></i></h1>
+                         <h3>Academic Partners</h3>
+                          <p>Our Academic Partners contribute academic programming and support in their areas of innovative expertise.</p>
+							<h5><a href="https://thecenter.fsu.edu/">Center for Leadership and Social Change</a></h5>
+							<h5><a href="https://artsandsciences.fsu.edu/">College of Arts and Sciences</a></h5>
+							<h5><a href="https://business.fsu.edu/">College of Business</a></h5>
+							<h5><a href="https://education.fsu.edu/">College of Education</a></h5>
+							<h5><a href="https://www.eng.famu.fsu.edu/">College of Engineering</a></h5>
+							<h5><a href="https://film.fsu.edu/">College of Motion Picture Arts</a></h5>
+							<h5><a href="https://coss.fsu.edu/">College of Social Sciences and Public Policy</a></h5>
+							<h5><a href="http://interiordesign.fsu.edu/">Department of Interior Architecture and Design</a></h5>
+							<h5><a href="https://www.sc.fsu.edu/">Department of Scientific Computing</a></h5>
+							<h5><a href="http://em.fsu.edu/">Emergency Management and Homeland Security Program</a></h5>
+						
+							
+                         
+
+                    </div>
+                    <div class="wow fadeInRight col-md-4 pt-80 pt-sm-0">
+                        <div class="features-box-left">
+							<div class="spacer-60"></div>
+                          <h1><i class="ion ion-android-hand"></i></h1>
+                              <h3>Support Partners</h3>
+                          <p>Our Support Partners collaborate with the Innovation Hub in providing services to students through the Hub.</p>
+                           <h5><a href="https://www.career.fsu.edu/">Career Center</a></h5>
+                           <h5><a href="https://cre.fsu.edu/">Center for Undergraduate Research and Academic Engagement (CRA)</a></h5>
+                           <h5><a href="https://its.fsu.edu/">Information Technology Services (ITS)</a></h5>
+                           <h5><a href="http://lsi.fsu.edu/">Learning Systems Institute (LSI)</a></h5> 
+                           <h5><a href="https://distance.fsu.edu/">Office of Distance Learning (ODL)</a></h5>
+                           
+                        </div>
+                    </div>
+                </div>
+				<div class="row">
+                    <div class="wow fadeInLeft col-md-4 pt-80 pt-sm-0">
+                        <div class="features-box-right">
+                        </div>
+
+                    </div>
+                    <div class="wow fadeIn col-md-4 hidden-sm hidden-xs text-center">
+                         <h1><i class="ion ion-android-people"></i></h1>
+                         <h3>Community Partners</h3>
+                          <p>Our Community Partners provide educational opportunities for our students and connect The Hub to the Tallahassee Innovation Ecosystem.</p>
+						  <h5><a href="https://covalentreality.co/">Covalent Reality</a></h5>
+						  <h5><a href="http://www.domistation.com/">Domi Station</a></h5>
+						<div><a class="btn btn-md btn-black-line" href="#dt">Learn More</a><span class="btn-space-10 xs-hidden"></span></div>
+                    </div>
+                    <div class="wow fadeInRight col-md-4 pt-80 pt-sm-0">
+                        <div class="features-box-left">
+
+                           
+                        </div>
+                    </div>
+                </div>
+				<div class="spacer-60"></div>
+            </div>
+        </section>
+        <!-- End Features -->                
+ 
+                
+        <!-- Statement Section -->
+        <section id="partners-quote" class="bg-img24 overlay-dark80 dark-bg ptb ptb-sm-80">
+            <div class="container text-center">
+                <div class="row  pb-60">
+                    <div class="col-md-10 offset-md-2">
+                        <i style="font-size: 12em" class="ion-ios-lightbulb-outline"></i>
+					<blockquote class="paralax">An active member in Tallahassee's Innovation Ecosystem!</blockquote>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Statement Section -->
+                                                                                           
+
+		
+
+       <!-- Team Grid Box Section -->
+        <section id="team" class="ptb ptb-sm-80">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="col">Our Team</h2>
+                </div>
+                <div class="spacer-60"></div>
+                <div class="row">
+                    <!-- Team Box -->
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/ken.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Ken Baldauf</h5>
+                                        <p>Director</p>
+ 										<p>Email: ken@innovation.fsu.edu<br>Phone: 850.645.8649<br>Office: 123 Shores Innovation Hub</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Ken Baldauf</h5>
+                                <p class="">Director</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Leila Gibradze</h5>
+                                        <p>Assistant Director - Operations</p>
+										<p>Email: leila@innovation.fsu.edu<br>Phone: 850.645.8418<br>Office: 121 Shores Innovation Hub</p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Leila Gibradze</h5>
+                                <p class="">Assistant Director - Operations</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/robby.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Robby Nowell</h5>
+                                        <p>Fablab Supervisor</p>
+										<p>Email: robby@innovation.fsu.edu<br>Phone: 850.645.8622<br>Office: 122 Shores Innovation Hub</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Robby Nowell</h5>
+                                <p class="">Fablab Supervisor</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/rienne.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Ren Saludo</h5>
+                                        <p>Assistant Director - Design and New Technologies</p>
+										<p>Email: ren@innovation.fsu.edu<br>Phone: 850.645.8618<br>Office: 131 Shores Innovation Hub</p>
+									</div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Ren Saludo</h5>
+                                <p class="">Assistant Director - Design and New Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+
+					<!-- Grads ---------------------------------------------->
+					
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/alandra.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Alandra Brown</h5>
+                                        <p>Graduate Student Assistant</p>
+										<p>Email: alandra@innovation.fsu.edu</p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Alandra Brown</h5>
+                                <p class="">Graduate Student Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Castle Kim</h5>
+                                        <p>Graduate Student Assistant</p>
+										<p>Email: castle@innovation.fsu.edu</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Castle Kim</h5>
+                                <p class="">Graduate Student Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/ebrahim.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Ebrahim Montazeri</h5>
+                                        <p>Graduate Student Assistant</p>
+										<p>Email: ebrahim@innovation.fsu.edu</p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Ebrahim Montazeri</h5>
+                                <p class="">Graduate Student Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Sachin Vasishta</h5>
+                                        <p>PostGrad Volunteer</p>
+										<p>Email: sachin.vasishta@gmail.com</p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Sachin Vasishta</h5>
+                                <p class="">PostGrad Volunteer</p>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+					<!-- Interns ---------------------------------->
+					
+                   <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Tan Arin</h5>
+                                        <p>Undergrad Intern<br>Computer Science</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Tan Arin</h5>
+                                <p class="">Undergrad Intern<br>Computer Science</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Andrew Augusteen</h5>
+                                        <p>High School Intern</p>
+										<p>Specialty: </p>
+  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Andrew Augusteen</h5>
+                                <p class="">High School Intern</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Jonah Baer</h5>
+                                        <p>Undergrad Intern<br>Marketing, Social Entrepreneurship</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Jonah Baer</h5>
+                                <p class="">Undergrad Intern<br>Marketing, Social Entrepreneurship</p>
+                            </div>
+                        </div>
+                    </div>
+ 					
+                   <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Justin Barger</h5>
+                                        <p>Undergrad Intern<br>Marketing, Social Entrepreneurship</p>
+										<p>Specialty: </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Justin Barger</h5>
+                                <p class="">Undergrad Intern<br>Marketing, Social Entrepreneurship</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Joshua Barrios</h5>
+                                        <p>Undergrad Intern<br>Information Technology</p>
+										<p>Specialty: </p>
+  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Joshua Barrios</h5>
+                                <p class="">Undergrad Intern<br>Information Technology</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Ben Cynamon</h5>
+                                        <p>Undergrad Intern<br>Information Communication and Technology</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Ben Cynamon</h5>
+                                <p class="">Undergrad Intern<br>Information Communication and Technology</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Nicholas D'Angelo</h5>
+                                        <p>Undergrad Intern<br>Information Technology</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Nicholas D'Angelo</h5>
+                                <p class="">Undergrad Intern<br>Information Technology</p>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Liz Dorwart</h5>
+                                        <p>Undergrad Intern<br>Editing Writing and Media, Political Science</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Liz Dorwart</h5>
+                                <p class="">Undergrad Intern<br>Editing Writing and Media, Political Science</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Alexandra Hollabaugh</h5>
+                                        <p>Undergrad Intern<br>Mechanical Engineering</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Alexandra Hollabaugh</h5>
+                                <p class="">Undergrad Intern<br>Mechanical Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Gwen Lofman</h5>
+                                        <p>Undergrad Intern<br>Computational Science</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Gwen Lofman</h5>
+                                <p class="">Undergrad Intern<br>Computational Science</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Kyle Long</h5>
+                                        <p>Undergrad Intern<br>Environmental Engineering</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Kyle Long</h5>
+                                <p class="">Undergrad Intern<br>Environmental Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Kiera Malcolm</h5>
+                                        <p>Undergrad Intern<br>Interior Architecture and Design</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Kiera Malcolm</h5>
+                                <p class="">Undergrad Intern<br>Interior Architecture and Design</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Fabuola	Pierre</h5>
+                                        <p>Undergrad Intern<br>Information Communication and Technology</p>
+										<p>Specialty: </p>
+ 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Fabuola	Pierre</h5>
+                                <p class="">Undergrad Intern<br>Information Communication and Technology</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Danielle Portal</h5>
+                                        <p>Undergrad Intern<br>Management Information Systems</p>
+										<p>Specialty: </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Danielle Portal</h5>
+                                <p class="">Undergrad Intern<br>Management Information Systems</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Felicia (Mo) Reich</h5>
+                                        <p>Undergrad Intern<br>International Affairs, Social Entrepreneurship</p>
+										<p>Specialty: </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Felicia (Mo) Reich</h5>
+                                <p class="">Undergrad Intern<br>International Affairs, Social Entrepreneurship</p>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Andrew	Reiter</h5>
+                                        <p>Undergrad Intern<br>Industrial Engineering</p>
+										<p>Specialty: </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Andrew	Reiter</h5>
+                                <p class="">Undergrad Intern<br>Industrial Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Tyler St.Preux</h5>
+                                        <p>Undergrad Intern<br>Computer Science</p>
+										<p>Specialty: </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Tyler St.Preux</h5>
+                                <p class="">Undergrad Intern<br>Computer Science</p>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Henry Troutman</h5>
+                                        <p>Undergrad Intern<br>Electrical Engineering</p>
+										<p>Specialty: </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Henry Troutman</h5>
+                                <p class="">Undergrad Intern<br>Electrical Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Maddie Wishart</h5>
+                                        <p>Undergrad Intern<br>Studio Art</p>
+										<p>Specialty: </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Maddie Wishart</h5>
+                                <p class="">Undergrad Intern<br>Studio Art</p>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-md-3 col-sm-6 mb-30">
+                       <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="images/team/blank.jpg" alt="" />
+                                <div class="team-item-detail">
+                                    <div class="team-item-detail-inner light-color">
+                                        <h5>Jonathan Yepez</h5>
+                                        <p>Undergrad Intern<br>Industrial Engineering</p>
+										<p>Specialty: </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-item-info">
+                                <h5>Jonathan Yepez</h5>
+                                <p class="">Undergrad Intern<br>Industrial Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+                    <!-- End Team Box -->
+                </div>
+            </div>
+
+        </section>
+        <!-- End Team Grid Box Section -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+   		<section id="staff-quote" class="bg-img26 overlay-dark80 dark-bg ptb ptb-sm-80">
+            <div class="container text-center">
+                <div class="row  pb-60">
+                    <div class="col-md-10 offset-md-2">
+                        <i style="font-size: 12em" class="ion-ios-lightbulb-outline"></i>
+					<blockquote class="paralax">Failure is an option here. If things are not failing, you are not innovating enough.</blockquote><h3>- Elon Musk</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Service Section -->
+ <!--       <section id="getinvolved">
+        	<div class="container text-center">
+        		<h2 class="ptb pt-80">Get Involved!</h2>
+			</div>
+		</section>
+        
+         <!-- Contant Slider Section -->
+ <!--       <section id="getinvolved_content" class="wow fadeIn">
+            <div class="owl-carousel content-carousel content-slider">
+                <div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 mb-sm-30">
+                                <img src="images/students_whitebg.jpg" alt="" />
+                            </div>
+                            <div class="col-md-5 offset-md-1">
+                                <h3>Students</h3>
+                                <div class="spacer-15"></div>
+								<h4>HANGOUT, MESS AROUND, GEEK OUT!</h4> 
+                               	<p>Make new friends and get involved in important, engaging projects.</p>
+                                <p>Become an Innovation Hub Ambassador!</p>
+                                <div class="spacer-15"></div>
+                                <a class="btn btn-md btn-black">Get involved!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5 mb-sm-30">
+                                <h3>Teachers</h3>
+                                <div class="spacer-15"></div>
+                                <h4>INJECT INNOVATION INTO YOUR CLASSES AND PROJECTS!</h4>
+                                <p>Collaborate with colleagues and students across disciplines! Explore the latest innovation technologies and methods.</p>
+                                <p>Become an Innovation Hub Affiliate!</p>
+                                <div class="spacer-15"></div>
+                                <a class="btn btn-md btn-black">Partner with us!</a>
+                            </div>
+                            <div class="col-md-6 offset-md-1">
+                                <img src="images/faculty2_whitebg.jpg" alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 mb-sm-30">
+                                <img src="images/business_whitebg.jpg" alt="" />
+                            </div>
+                            <div class="col-md-5 offset-md-1">
+                                <h3>Businesses</h3>
+                                <div class="spacer-15"></div>
+                                <h4>CONNECT WITH INNOVATIVE STUDENTS!</h4>
+                                <p>Use the Innovation Hub to train students on technologies valued by your organization. Recruit interns and future employees. Provide us with design challenges. </p>
+                                <p>Become an Innovation Hub Partner!</p>
+                                <div class="spacer-15"></div>
+                                <a class="btn btn-md btn-black">Find out more!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            	<div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 mb-sm-30">
+                                <img src="images/community_whitebg.jpg" alt="" />
+                            </div>
+                            <div class="col-md-5 offset-md-1">
+                                <h3>Community</h3>
+                                <div class="spacer-15"></div>
+                                <h4>CONNECT WITH FSU INNOVATION!</h4>
+                                <p>Special events provided to educate and connect our innovative community including K-12 schools, and other local innovation and entrepreneurial organizations.</p>
+                                <p>Join the Tallahassee Innovation Ecosystem!</p>
+                                <div class="spacer-15"></div>
+                                <a class="btn btn-md btn-black">Connect now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <!-- End Contain Slider Section -->
+  
+
+        <!-- Team Section -->
+<!--        <section id="team" class="wow fadeIn pt pt-sm-80 text-center seafoam">
+            <div class="container">
+                <h3>Team</h3>
+                <div class="spacer-30"></div>
+-->                <!-- work Filter -->
+<!--                <div class="row">
+                    <ul class="col container-filter categories-filter">
+                        <li><a class="categories active" data-filter="*">All</a></li>
+                        <li><a class="categories" data-filter=".fulltimer">Full-time Staff</a></li>
+                        <li><a class="categories" data-filter=".affiliate">Faculty Affiliates</a></li>
+                        <li><a class="categories" data-filter=".ga">Graduate Assistants</a></li>
+                        <li><a class="categories" data-filter=".intern">Student Interns</a></li>
+                        <li><a class="categories" data-filter=".ambassador">Student Ambassadors</a></li>
+                    </ul>
+                </div>
+-->                <!-- End work Filter -->
+<!--            </div>
+-->            <!-- Work Gallary -->
+<!--            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col container-grid nf-col-4">
+
+                        <div class="nf-item fulltimer">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="images/team/baldauf.jpg" title="Consequat massa quis">
+                                    <img class="item-container" src="images/team/baldauf.jpg" alt="1" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Ken Baldauf</h5>
+                                            <p class="white">Director</p>
+                                            <p class="white">ken@innovation.fsu.edu</p>
+                                            <p class="white">850 645 8649</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item photo">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/2.jpg" title="Vivamus elementum semper">
+                                    <img class="item-container" src="img/portfolio/2.jpg" alt="2" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Vivamus elementum semper</h5>
+                                            <p class="white">Photo</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design coffee">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/3.jpg" title="Quisque rutrum">
+                                    <img class="item-container" src="img/portfolio/3.jpg" alt="4" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Quisque rutrum</h5>
+                                            <p class="white">Branding, Design, Coffee</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/4.jpg" title="Tellus eget condimentum">
+                                    <img class="item-container" src="img/portfolio/4.jpg" alt="4" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Tellus eget condimentum</h5>
+                                            <p class="white">Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/5.jpg" title="Nullam quis ant">
+                                    <img class="item-container" src="img/portfolio/5.jpg" alt="5" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Nullam quis ant</h5>
+                                            <p class="white">Branding, Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item photo">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/6.jpg" title="Sed fringilla mauris">
+                                    <img class="item-container" src="img/portfolio/6.jpg" alt="6" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Sed fringilla mauris</h5>
+                                            <p class="white">Photo</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/7.jpg" title="Augue velit cursus">
+                                    <img class="item-container" src="img/portfolio/7.jpg" alt="7" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Augue velit cursus</h5>
+                                            <p class="white">Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item coffee">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/8.jpg" title="Donec sodales sagittis">
+                                    <img class="item-container" src="img/portfolio/8.jpg" alt="8" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Donec sodales sagittis</h5>
+                                            <p class="white">Coffee</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+-->            <!-- End Work Gallary -->
+<!--       </section>
+-->        <!-- End Work Section -->        
+                
+                        
+                                
+                                        
+                                                
+        <!-- END CONTENT ---------------------------------------------------------------------------->
+
+        <!-- FOOTER -->
+        <footer class="footer pt-80">
+            <div class="container">
+                <div class="row mb-60">
+                    <!-- Logo -->
+                    <div class="col-md-4">
+                        <a class="footer-logo" href="https://innovation.fsu.edu"><img src="images/logo300.png" /></a>
+                    </div>
+                    <!-- Logo -->
+
+                    <!-- Newsletter -->
+                     <div class="col-md-4 text-center">
+                    <h4>Fall Hours of Operation</h4>
+                      <p>Mon - Thu: 8AM - 9PM</p>
+						 <p>Fri: 8AM - 6PM</p>
+						 <p>Sun: Noon - 6PM</p>
+						 <p>Closed Saturday</p>
+                       
+                    </div>
+
+                    <!-- Social -->
+                    <div class="col-md-4 text-right">
+                       <h2><a target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a> <a target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a> <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a> </h2>
+                          <ul class="link-small">
+                           <li>142 Collegiate Loop<br>Tallahassee, FL 32306-2110</li>
+                            <li><a href="mailto:info@innovation.fsu.edu"><i class="fa fa-envelope-o left"></i>info@innovation.fsu.edu</a></li>
+                            <li><a><i class="fa fa-phone left"></i>850 645 8620</a></li>
+                        </ul>
+                    </div>
+                    <!-- End Social -->
+				</div>
+			</div>
+            <hr />
+
+            <!-- Copyright Bar -->
+            <section class="copyright ptb-60">
+                <div class="container">
+                    <p class="">
+                        © 2018 <a><b>FSU Innovation Hub</b></a>. All Rights Reserved.
+                    </p>
+                </div>
+            </section>
+            <!-- End Copyright Bar -->
+
+        </footer>
+        <!-- END FOOTER -->
+
+        <!-- Scroll Top -->
+        <a class="scroll-top">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+        <!-- End Scroll Top -->
+
+    </div>
+    <!-- Site Wraper End -->
+
+
+    <!-- JS -->
+
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+    <script src="js/plugin/wow.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+    <script src="js/plugin/mediaelement-and-player.min.js"></script>
+    <script src="js/plugin/sidebar-menu.js" type="text/javascript"></script>
+    <script src="js/theme.js" type="text/javascript"></script>
+    <script src="js/navigation.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+
+
+</body>
+</html>
