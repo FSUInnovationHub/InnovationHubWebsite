@@ -5,3 +5,8 @@
 # Contributors
 
 - Ken Baldauf
+- Ben Cynamon
+- Felicia "Mo" Reich
+- Liz Dorwart
+- Jonah Baer
+- Ariana M. Davis
