@@ -1,0 +1,8 @@
+presentation/
+*.pptx
+*.gdoc
+*.gsheet
+
+# The iGEM site on the innovation Hub site is not managed by us
+# for the moment we elected to ignore it in this git repository
+orgs/igem/
