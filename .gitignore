@@ -5,6 +5,9 @@ presentation/
 *.gdoc
 *.gsheet
 
+# Ignore Dream Weaver's project files
+**/_notes/
+
 # The iGEM site on the innovation Hub site is not managed by us
 # for the moment we elected to ignore it in this git repository
 orgs/igem/
