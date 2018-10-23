@@ -238,6 +238,136 @@ p {
         color: #323232;
     }
 
+    .header .logo a {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 340px;
+        transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+    }
+	.seafoam {
+		background-color: #c3d7d3;
+	}
+	.header.header-prepare, .header.header-light.header-prepare {
+    	background-color: rgba(255, 255, 255, 0.50);
+	}
+	.social {
+    	font-size: 20px;
+		list-style: none;
+	}
+	.social li {
+		float: left;
+		padding: 10px;
+	}
+	.clearfix{
+		  clear: both;
+	}	
+	.ptb {
+		padding-top: 75px;
+		padding-bottom: 0px;
+	}
+	blockquote.paralax {
+		border: 0;
+		border-top: none;
+		border-bottom: none;
+		font-size: 3em;
+		line-height: 1em;
+		font-weight: 200;
+		padding: 0;
+		margin: 0;
+		padding-bottom: 80px;
+	}
+	blockquote.paralax:before {
+		content: '\f347';
+		font-family: 'Ionicons';
+		margin-right: 0.5em;
+	}
+	blockquote.paralax:after {
+		content: '\f347';
+		font-family: 'Ionicons';
+		margin-left: 0.5em;
+	}
+	.bg-img19 {
+		background-image: url(images/frontdesk.jpg);
+	}
+	.bg-img20 {
+		background-image: url(images/einstein.jpg);
+	}
+	.bg-img21 {
+		background-image: url(images/splash4.jpg);
+	}
+	.bg-img22 {
+		background-image: url(images/splash6.jpg);
+	}
+	.bg-img23 {
+		background-image: url(images/active_learning.jpg);
+	}	
+	.bg-img24 {
+		background-image: url(images/tallahassee.jpg);
+	}	
+	.bg-img25 {
+		background-image: url(images/staff.jpg);
+	}	
+	.bg-img26 {
+		background-image: url(images/elon.jpg);
+	}	
+	.overlay-dark80:before {
+		background-color: rgba(32,32,32,0.5);
+	}
+	.fullscreen-carousel .flex-direction-nav a {
+		background-color: rgba(255,255,255,0.25);
+		border-radius: 25px;
+	}
+	.footer-logo{
+		    max-width: 240px;
+	}
+	p, li, td {
+		font-weight: 400;
+    	color: #666;
+		font-size: 14px;
+	}
+
+	.sidebar a, a:visited {
+
+    	color: #666;
+		text-decoration: underline;
+	}
+	.sidebar a:hover{
+
+    	color: #000;
+		text-decoration: none;
+	}
+	
+
+	
+
+	#fsuwidgetdatebox {
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+		border: 1px solid #888;
+		display: inline-table;
+		float: left;
+		clear: right;
+		background: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px;
+	}
+	.features-box-right {
+		padding-right: 0px;
+		text-align: right;
+	}
+	.features-box-left {
+		padding-left: 0px;
+		text-align: left;
+	}
+	.header.header-fixed {
+		height: 90px;
+	}	
 
 /*Headings Style   ||-----------*/
 
