@@ -8,3 +8,6 @@
 - Ben Cynamon
 - Felicia "Mo" Reich
 - Liz Dorwart
+- Jonah Baer
+- Fabuola Pierre
+- Ariana M. Davis

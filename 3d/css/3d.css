@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar-brand {
+padding: 0;
+}
+
+#home {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
