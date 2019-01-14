@@ -9,5 +9,5 @@
 - Felicia "Mo" Reich
 - Liz Dorwart
 - Jonah Baer
-- Ariana M. Davis
 - Fabuola Pierre
+- Ariana M. Davis
