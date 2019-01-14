@@ -7,7 +7,7 @@ $(function () {
 
     $(window).load(function () {
 
-        // SITE PRELOADER                     ||----------- 
+        // SITE PRELOADER                     ||-----------
 
         $('#loader').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
@@ -19,7 +19,7 @@ $(function () {
 
 
     // ---------------------------------------------------------------------------------------------------------------------------->
-    // GENERAL SCRIPTS FOR ALL PAGES    ||----------- 
+    // GENERAL SCRIPTS FOR ALL PAGES    ||-----------
     // ---------------------------------------------------------------------------------------------------------------------------->
 
     $(document).ready(function () {
@@ -156,7 +156,7 @@ $(function () {
 
                     // Header Dark Light
                     headerDarkLight_with_flexslider();
-                    
+
                 },
                 start: function (slider) {
                     $('body').removeClass('loading');
