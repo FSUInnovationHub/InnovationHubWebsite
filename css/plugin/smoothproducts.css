@@ -9,7 +9,7 @@ html, body {
     line-height:0;
     font-size:0;
     position:relative;
-    
+
     /**************
       Set max-width to your thumbnail width
     ***************/
@@ -88,8 +88,8 @@ html, body {
     right: 0;
     top: 0;
     line-height: 1em;
-   
-    
+
+
 }
 .sp-full-screen a:link,
 .sp-full-screen a {
@@ -103,7 +103,7 @@ html, body {
     text-transform:uppercase;
     font-size:12px;
     letter-spacing:2px;
-     
+
 }
     .sp-full-screen a i {
         margin-right:5px;

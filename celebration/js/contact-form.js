@@ -3,7 +3,7 @@
     "use strict";
 
     $("#contact").validate();
-    
+
     /* =================================
     ===  CONTACT FORM               ====
     =================================== */
@@ -20,7 +20,7 @@
             return pattern.test(emailAddress);
         };
 
-      
+
 
         if (validEmail(email) && (message.length > 1) && (name.length > 1)) {
             $.ajax({
@@ -42,7 +42,5 @@
 
 
 
-  
+
 })(jQuery);
-
-
