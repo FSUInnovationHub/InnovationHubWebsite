@@ -22,6 +22,15 @@ It should not be necessary to run `git lfs get`, but do so if you happen to noti
 
 [`git-lfs`]: https://git-lfs.github.com/
 
+### Automated Deployments
+
+Using GitHub's [Travis-ci] integration, the website will automatically update whenever a commit is pushed to the master branch.  Therefore, use **extreme** cution when merging code, and always do so by pull request if possible.
+
+The website is also deployed on [netlify] which allows us to preview any changes made in pull requests.  Be sure to make use of this feature in order to review changes as they would appear on the live website!  This will let us catch errors before the website is live to the public.
+
+[Travis-ci]: https://travis-ci.org
+[netlify]: https://netlify.com
+
 ## Contributors
 
 - Ken Baldauf
